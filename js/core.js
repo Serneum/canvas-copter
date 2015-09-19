@@ -37,7 +37,7 @@ window.onload = function() {
     messageLayer.addEventListener('mousedown', handleKeyDown);
     messageLayer.addEventListener('mouseup', handleKeyUp);
 
-    helicopter = new Helicopter(gameLayer, "helicopter.png");
+    helicopter = new Helicopter(gameLayer, "Helicopter.png");
     helicopter.image.onload = function() {
         helicopter.height = helicopter.image.height;
         helicopter.width = helicopter.image.width;
