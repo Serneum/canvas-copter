@@ -159,6 +159,7 @@ function reset() {
     obstacles = [];
     score = 0;
     clearMessageLayer();
+    drawScore();
 }
 
 // Determine when and what type of obstacle to generate
