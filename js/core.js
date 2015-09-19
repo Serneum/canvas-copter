@@ -36,6 +36,8 @@ window.onload = function() {
     // The message layer is the top-most layer, so we have to add events to it instead of the game layer
     messageLayer.addEventListener('mousedown', handleKeyDown);
     messageLayer.addEventListener('mouseup', handleKeyUp);
+    messageLayer.addEventListener('touchstart', handleKeyDown);
+    messageLayer.addEventListener('touchend', handleKeyUp);
 
     helicopter = new Helicopter(gameLayer, "Helicopter.png");
     helicopter.image.onload = function() {
