@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+}
+
+.layer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: transparent;
+}
+
+.background {
+    z-index: 1;
+}
+
+.score {
+    z-index: 2;
+}
+
+.game {
+    z-index: 3;
+}
+
+.message {
+    z-index: 4;
+}
