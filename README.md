@@ -4,4 +4,4 @@ An implementation of a Flappy Bird and Helicopter hybrid using HTML's canvas ele
 Once `game.html` is opened in your browser, you can left-click to move your helicopter up.
 
 ## Demo It
-You can play the latest version of the game on [my server](http://sernprogramming.com/games/helicopter/game.html)
+You can play the latest version of the game on this project's [GitHub page](http://serneum.github.io/canvas-copter/)
